@@ -51,6 +51,7 @@
 
     // Register for remote notifications. This shows a permission dialog on first run, to
     // show the dialog at a more appropriate time move this registration accordingly.
+    /*
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1) {
         // iOS 7.1 or earlier. Disable the deprecation warnings.
         #pragma clang diagnostic push
@@ -81,6 +82,7 @@
         [[UIApplication sharedApplication] registerForRemoteNotifications];
         // [END register_for_notifications]
     }
+    */
 
     // [START configure_firebase]
     [FIRApp configure];
